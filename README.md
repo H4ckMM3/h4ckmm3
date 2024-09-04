@@ -1,4 +1,5 @@
 ## Hi there 👋
+I am a Frontend developer, I have been writing and studying Front for 3 years from personal experience, this area is interesting to me and I want to develop fur
 
 <!--
 **H4ckMM3/h4ckmm3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
