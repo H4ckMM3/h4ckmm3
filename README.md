@@ -1,5 +1,5 @@
 ## Hi there 👋
-I am a Frontend developer, I have been writing and studying Front for 3 years from personal experience, this area is interesting to me and I want to develop fur
+I am a frontend developer with three years of experience in this field. During this time, I not only actively studied various aspects of frontend development, but also applied the knowledge I gained in practice, which allowed me to better understand the specifics of the work. I have always been interested in creating user-friendly, beautiful and functional interfaces that make user interaction with the product as comfortable as possible. I am currently working at Ingate, where I am developing professionally and striving to continuously improve my skills. I am sure that frontend is not just a job for me, but a real vocation that motivates me to move forward and master new technologies.
 
 <!--
 **H4ckMM3/h4ckmm3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
