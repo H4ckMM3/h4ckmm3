@@ -8,7 +8,6 @@
 
 ## 🧠 Немного обо мне
 
-- 💼 Сейчас работаю фронтенд-разработчиком в **Ingate**
 - 👨‍💻 Пишу сайты, интерфейсы, UI-анимации, мини-игры
 - 🛠 Мой стек: **JavaScript**, **HTML**, **CSS**, **PHP**, **C#**, немного **Python**
 - 🧪 Активно изучаю **Python** — автоматизация, бэкенд, парсеры, боты
@@ -52,7 +51,6 @@
 ## 🔮 В планах
 
 - 🐍 Продолжать изучение **Python** — backend, FastAPI, Django, парсеры
-- ⚒ Освоить **React**, **Next.js**, **TypeScript**
 - 🤖 Развивать проекты с **AI/LLM** и **SEO-автоматизацией**
 - 🚀 Писать полезные телеграм-боты и open-source тулзы
 
@@ -61,7 +59,7 @@
 ## 📬 Контакты
 
 - 📧 Email: `your_email@example.com`
-- 💬 Telegram: [@yourhandle](https://t.me/yourhandle)
+- 💬 Telegram: [@yourhandle](@GyaruDev)
 - 🌐 VK: [vk.com/h4ckm3](https://vk.com/h4ckm3)
 
 ---
