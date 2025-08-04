@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Привет!+Я+H4ckMM3;Фронтенд+разработчик+с+4+годами+опыта;Пишу+на+JS,+HTML,+CSS+и+Python&center=true&size=24" />
-</p>
+
 
 <h1 align="center">👋 Добро пожаловать в мой профиль</h1>
 
