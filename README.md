@@ -61,7 +61,7 @@
 ## 📬 Контакты
 
 - 📧 Email: `your_email@example.com`
-- 💬 Telegram: [@yourhandle](https://t.me/yourhandle)
+- 💬 Telegram: [@yourhandle](@GyaruDev)
 - 🌐 VK: [vk.com/h4ckm3](https://vk.com/h4ckm3)
 
 ---
