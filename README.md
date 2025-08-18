@@ -24,7 +24,7 @@
 | [Loading Spinner](https://github.com/H4ckMM3/Loading-spinner) | Прелоадеры на CSS | CSS |
 | [Snake Game](https://github.com/H4ckMM3/Snake-Game) | Классическая змейка | JS, Canvas |
 | [Chat Local](https://github.com/H4ckMM3/chat-local) | Локальный чат на сокетах | Node.js, Socket.IO |
-| [BackUP‑v2.0](https://github.com/H4ckMM3/BackUP-v1.0) | Автоматическое копирование файлов | Python |
+| [FTP-BackUp]([https://github.com/H4ckMM3/BackUP-v1.0)](https://github.com/H4ckMM3/FTP-Backup.git) | Автоматическое копирование файлов | Python |
 | [SEO‑Autotester](https://github.com/H4ckMM3/SEO-Autotester) | Инструмент для SEO-анализа, генерации мета‑тегов и семантики | Python, Flet, LLM |
 | [Snippet Bot](https://github.com/H4ckMM3/Snippet-Bot) | Телеграм-бот для выдачи сниппетов кода | Python, aiogram, Telegram API |
 
