@@ -27,7 +27,7 @@
 | [FTP-BackUp](https://github.com/H4ckMM3/FTP-Backup.git)| Автоматическое копирование файлов | Python |
 | [SEO‑Autotester](https://github.com/H4ckMM3/SEO-Autotester) | Инструмент для SEO-анализа, генерации мета‑тегов и семантики | Python, Flet, LLM |
 | [Snippet Bot](https://github.com/H4ckMM3/Snippet-Bot) | Телеграм-бот для выдачи сниппетов кода | Python, aiogram, Telegram API |
-| [FinanseApp]((https://github.com/H4ckMM3/FinanseApp)) | Приложение для учета и анализа своих финансов | Python, Flet |
+| [FinanseApp](https://github.com/H4ckMM3/FinanseApp) | Приложение для учета и анализа своих финансов | Python, Flet |
 
 
 
