@@ -2,7 +2,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120"/>
 </p>
 
-<h1 align="center">👋 Привет, я GuyaruDev</h1>
+<h1 align="center">👋 Привет, я Noctyrnx</h1>
 <h3 align="center">Python / Automation / Product-driven Developer</h3>
 
 <p align="center">
