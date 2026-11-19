@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/cover.jpg" width="100%" alt="NOCTYRNX / AFTER HOURS — чёрно-белая манга о ночном городе">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/cover.jpg">
+    <img src="assets/cover-motion.svg" width="100%" alt="NOCTYRNX / AFTER HOURS — чёрно-белая манга о ночном городе">
+  </picture>
 </p>
 
 <h1 align="center">Noctyrnx</h1>
