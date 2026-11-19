@@ -68,7 +68,7 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="286" viewB
 </style>
 <rect x="1" y="1" width="898" height="284" rx="23" fill="#fff7fb" stroke="#e6a1c2" stroke-width="2"/>
 <g clip-path="url(#portrait)">
-  <image x="11" y="11" width="313" height="264" href="{art}" preserveAspectRatio="xMaxYMid slice"/>
+  <image x="11" y="11" width="313" height="264" href="{art}" preserveAspectRatio="xMidYMid slice"/>
   <g class="blossoms">
     <g transform="translate(31 42)"><use href="#petal" style="--delay:0s"/></g>
     <g transform="translate(196 25)"><use href="#petal" style="--delay:-4.5s"/></g>
