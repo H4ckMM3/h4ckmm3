@@ -49,7 +49,7 @@
   </a>
   <br>
   <a href="https://github.com/H4ckMM3?tab=repositories">
-    <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/top-languages.svg" width="495" alt="Топ языков H4ckMM3 по объёму кода в собственных публичных репозиториях">
+    <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/top-languages.svg?v=2" width="495" alt="Топ языков H4ckMM3 по объёму кода в собственных публичных репозиториях">
   </a>
   <br>
   <a href="https://github.com/H4ckMM3?tab=overview">
