@@ -23,9 +23,9 @@
 
 <table>
   <tr>
-    <td width="33%"><img src="assets/seo.jpg" alt="Лупа над распечаткой сайта"></td>
-    <td width="33%"><a href="https://github.com/H4ckMM3/Snippet-Bot"><img src="assets/snippet.jpg" alt="Чат на экране телефона"></a></td>
-    <td width="33%"><a href="https://github.com/H4ckMM3/FinanseApp"><img src="assets/finance.jpg" alt="Монеты и график расходов"></a></td>
+    <td width="33%"><img src="assets/seo-motion.svg" alt="Луч сканирует распечатку сайта под лупой"></td>
+    <td width="33%"><a href="https://github.com/H4ckMM3/Snippet-Bot"><img src="assets/snippet-motion.svg" alt="В облачках чата Telegram появляются точки набора"></a></td>
+    <td width="33%"><a href="https://github.com/H4ckMM3/FinanseApp"><img src="assets/finance-motion.svg" alt="График расходов оживает на мониторе"></a></td>
   </tr>
   <tr>
     <td><strong>SEO-Autotester</strong><br>Проверить сайт и подготовить метатеги.<br><sub>Python · Flet · LLM</sub></td>
