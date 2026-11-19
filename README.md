@@ -16,11 +16,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/marin-activity.svg" width="900" alt="Активность за год: вклады, коммиты, пул-реквесты, текущая и лучшая серии">
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/marin-calendar.svg?v=2" width="900" alt="Розовая змейка на календаре вкладов GitHub">
+  <img src="assets/marin-contribution-snapshot.svg" width="900" alt="Активность GitHub: 4 488 вкладов за год, включая закрытые репозитории. Снимок календаря за ноябрь 2025 — ноябрь 2026.">
 </p>
 
 <p align="center">
