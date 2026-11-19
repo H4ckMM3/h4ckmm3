@@ -1,34 +1,42 @@
 <p align="center">
-  <img src="./assets/noctyrnx.svg" width="960" alt="Noctyrnx. Ночная смена — обложка чёрно-белой манги с рысью в чернильной тени">
+  <img src="assets/cover.jpg" width="100%" alt="NOCTYRNX / AFTER HOURS — чёрно-белая манга о ночном городе">
 </p>
 
-# Ночная смена Noctyrnx
+<h1 align="center">Noctyrnx</h1>
 
-Я пишу на Python. Больше всего люблю момент, когда у знакомой рутины наконец появляется кнопка. Открыть Telegram, достать нужный сниппет и вернуться к коду, пока ещё помнишь, зачем он понадобился. Вот такой софт мне интересно делать.
+<p align="center"><strong>Python · автоматизация · Telegram-боты · AI</strong></p>
 
-## Глава 01 ◼ У каждого проекта своя завязка
+<p align="center">Собираю инструменты для задач, которые слишком часто приходится делать вручную.</p>
 
-| В кадре | Что происходит |
-| :--- | :--- |
-| **SEO-Autotester** | Разбирает сайт, помогает с семантикой и генерирует метатеги с помощью LLM. Интерфейс собран на Flet. |
-| **Snippet Bot** | Нужный фрагмент кода можно достать прямо в Telegram. Под капотом — Python и aiogram. |
-| **FinanseApp** | Показывает, куда уходят деньги. Личные финансы и аналитика в приложении на Flet. |
-| **FTP-Backup** | Берёт на себя повторяющуюся работу по созданию резервных копий. Написан на Python. |
-| **Chat Local** | Два собеседника, локальная сеть и сообщения, которые бегают между ними по сокетам. На стороне кода — Node.js. |
-| **Snake Game** | Один поворот отделяет новый рекорд от встречи с собственным хвостом. Этюд на JavaScript и Canvas. |
+<p align="center">
+  <a href="https://t.me/GyaruDev">Telegram</a> &nbsp;·&nbsp;
+  <a href="https://vk.com/h4ckm3">VK</a> &nbsp;·&nbsp;
+  <a href="https://github.com/H4ckMM3?tab=overview">Активность GitHub</a>
+</p>
 
-## Глава 02 ◧ За кадром
+<h2>Три задачи после полуночи</h2>
 
-**На рабочем столе** — Python, Flet и aiogram. На них я собираю десктопные приложения, Telegram-ботов и инструменты для автоматизации. В SEO-задачах подключаю LLM там, где нужно перейти от анализа к тексту.
+<table>
+  <tr>
+    <td width="33%"><img src="assets/seo.jpg" alt="Лупа над распечаткой сайта"></td>
+    <td width="33%"><a href="https://github.com/H4ckMM3/Snippet-Bot"><img src="assets/snippet.jpg" alt="Чат на экране телефона"></a></td>
+    <td width="33%"><a href="https://github.com/H4ckMM3/FinanseApp"><img src="assets/finance.jpg" alt="Монеты и график расходов"></a></td>
+  </tr>
+  <tr>
+    <td><strong>SEO-Autotester</strong><br>Проверить сайт и подготовить метатеги.<br><sub>Python · Flet · LLM</sub></td>
+    <td><strong><a href="https://github.com/H4ckMM3/Snippet-Bot">Snippet Bot ↗</a></strong><br>Найти нужный кусок кода прямо в Telegram.<br><sub>Python · aiogram</sub></td>
+    <td><strong><a href="https://github.com/H4ckMM3/FinanseApp">FinanseApp ↗</a></strong><br>Посмотреть, куда ушли деньги.<br><sub>Python · Flet</sub></td>
+  </tr>
+</table>
 
-**В наборе инструментов** — JavaScript, Node.js, HTML, CSS и PHP. Для работы с кодом — Git, GitHub и VS Code.
+<p>
+  <a href="https://github.com/H4ckMM3/FTP-Backup"><strong>FTP-Backup</strong></a> · резервные копии на Python<br>
+  <a href="https://github.com/H4ckMM3/chat-local"><strong>Chat Local</strong></a> · локальный чат на сокетах с Node.js<br>
+  <a href="https://github.com/H4ckMM3/Snake-Game"><strong>Snake Game</strong></a> · змейка на JavaScript и Canvas
+</p>
 
-**В следующей главе** — углубляюсь в Python-бэкенд с FastAPI и Django. Хочу развивать свои инструменты в open source, чтобы ими могли пользоваться и другие разработчики.
+<h2>В работе</h2>
 
-## Глава 03 ◩ На полях
+<p>Собираю десктопные приложения на Flet, пишу ботов на aiogram и подключаю LLM к SEO-задачам. Сейчас углубляюсь в FastAPI и Django, чтобы превращать локальные инструменты в сервисы, которыми могут пользоваться другие.</p>
 
-Какую задачу ты всё ещё делаешь вручную? Напиши мне — люблю разбирать такие истории.
-
-[Telegram · @GyaruDev](https://t.me/GyaruDev)　/　[VK · h4ckm3](https://vk.com/h4ckm3)　/　[Активность на GitHub · H4ckMM3](https://github.com/H4ckMM3?tab=overview)
-
-<p align="right"><sub>つづく · Продолжение следует</sub></p>
+<p align="right"><sub>つづく / Продолжение следует</sub></p>
