@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="237" viewBox="0 0 495 237" role="img" aria-labelledby="title desc">
+<title id="title">Топ языков</title>
+<desc id="desc">Доли по объёму кода в собственных публичных репозиториях H4ckMM3.</desc>
+<rect x="0.5" y="0.5" width="494" height="236" fill="#fff" stroke="#111"/>
+<g fill="#111" font-family="Arial, sans-serif" font-size="14">
+  <text x="24" y="35" font-size="19" font-weight="bold">Топ языков</text>
+  
+  <text x="24" y="68">TeX</text>
+  <rect x="172" y="59" width="235" height="7" fill="#dedede"/>
+  <rect x="172" y="59" width="92.77" height="7" fill="#111"/>
+  <text x="471" y="68" text-anchor="end">39,5%</text>
+  <text x="24" y="93">Python</text>
+  <rect x="172" y="84" width="235" height="7" fill="#dedede"/>
+  <rect x="172" y="84" width="73.58" height="7" fill="#111"/>
+  <text x="471" y="93" text-anchor="end">31,3%</text>
+  <text x="24" y="118">HTML</text>
+  <rect x="172" y="109" width="235" height="7" fill="#dedede"/>
+  <rect x="172" y="109" width="60.34" height="7" fill="#111"/>
+  <text x="471" y="118" text-anchor="end">25,7%</text>
+  <text x="24" y="143">CSS</text>
+  <rect x="172" y="134" width="235" height="7" fill="#dedede"/>
+  <rect x="172" y="134" width="5.31" height="7" fill="#111"/>
+  <text x="471" y="143" text-anchor="end">2,3%</text>
+  <text x="24" y="168">JavaScript</text>
+  <rect x="172" y="159" width="235" height="7" fill="#dedede"/>
+  <rect x="172" y="159" width="1.64" height="7" fill="#111"/>
+  <text x="471" y="168" text-anchor="end">0,7%</text>
+  <text x="24" y="193">PHP</text>
+  <rect x="172" y="184" width="235" height="7" fill="#dedede"/>
+  <rect x="172" y="184" width="1.13" height="7" fill="#111"/>
+  <text x="471" y="193" text-anchor="end">0,5%</text>
+  <text x="24" y="219" font-size="12" fill="#444">Доля кода в собственных публичных репозиториях</text>
+</g>
+</svg>
