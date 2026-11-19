@@ -28,7 +28,12 @@ jobs:
           outputs: |
             dist/snake-light.svg?palette=github-light&color_snake=%23000000&color_dots=%23ededed,%23c6c6c6,%23949494,%235b5b5b,%23232323
             dist/snake-dark.svg?palette=github-dark&color_snake=%23ffffff&color_dots=%23232323,%234a4a4a,%23777777,%23a5a5a5,%23d2d2d2
-      - name: Publish animation
+      - name: Generate top languages card
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/render-language-card.py "$PROFILE_OWNER" dist/top-languages.svg
+      - name: Publish profile graphics
         shell: bash
         run: |
           branch=snake-output
@@ -42,11 +47,11 @@ jobs:
             fi
             git switch --orphan "$branch"
           fi
-          mv dist/snake-{light,dark}.svg .
-          git add -- snake-light.svg snake-dark.svg
+          mv dist/snake-{light,dark}.svg dist/top-languages.svg .
+          git add -- snake-light.svg snake-dark.svg top-languages.svg
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' \
               -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
-              commit -m 'Update contribution snake'
+              commit -m 'Update profile graphics'
             git push origin "HEAD:refs/heads/$branch"
           fi
