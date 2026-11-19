@@ -78,11 +78,15 @@ if not opening or not snake.endswith("</svg>"):
     raise ValueError("Unexpected contribution snake SVG")
 view_box = opening[1]
 content = snake[opening.end():-len("</svg>")]
+content = content.replace("--ce:#fff4f9", "--ce:#f9e1ed")
 (output / "marin-calendar.svg").write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="235" viewBox="0 0 900 235" role="img" aria-labelledby="title">
 <title id="title">Розовая змейка на календаре вкладов GitHub</title>
-<style>@media (prefers-reduced-motion: reduce) {{ .calendar-grid * {{ animation:none !important; }} }}</style>
+<style>
+.calendar-grid .c {{ width:14.5px; height:14.5px; stroke:#d9a5c0; stroke-width:.65px; }}
+@media (prefers-reduced-motion: reduce) {{ .calendar-grid * {{ animation:none !important; }} }}
+</style>
 <rect x="1" y="1" width="898" height="233" rx="23" fill="#fff5fa" stroke="#e6a1c2" stroke-width="2"/>
 <text x="30" y="42" font-family="system-ui,sans-serif" font-weight="750" font-size="22" fill="#902653">Календарь вкладов</text>
-<svg class="calendar-grid" x="22" y="49" width="856" height="180" viewBox="{view_box}">{content}</svg>
+<svg class="calendar-grid" x="15" y="49" width="870" height="180" viewBox="{view_box}">{content}</svg>
 </svg>
 ''', encoding="utf-8")
