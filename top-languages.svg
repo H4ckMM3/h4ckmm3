@@ -1,44 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="237" viewBox="0 0 495 237" role="img" aria-labelledby="title desc">
-<title id="title">Топ языков</title>
-<desc id="desc">Доли по объёму кода в собственных публичных репозиториях H4ckMM3 без учёта TeX.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+<title id="title">Языки в репозиториях</title><desc id="desc">Доля кода в собственных публичных репозиториях H4ckMM3 без TeX.</desc>
+<defs>
+  <linearGradient id="ink"><stop stop-color="#a51f61"/><stop offset="1" stop-color="#e65d9d"/></linearGradient>
+  <linearGradient id="highlight"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".6" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
 <style>
-  @media (prefers-reduced-motion: no-preference) {
-    .bar {
-      transform-box: fill-box;
-      transform-origin: left center;
-      animation: fill-bar 650ms ease-out var(--delay) both;
-    }
-    @keyframes fill-bar { from { transform: scaleX(0); } }
-  }
+.shine { display:none; }
+@media (prefers-reduced-motion: no-preference) {
+  .bar { transform-origin:left; transform-box:fill-box; animation:grow .82s ease-out var(--delay) both; }
+  .shine { display:inline; animation:sweep 5s ease-in-out var(--delay) infinite; }
+  @keyframes grow { from { transform:scaleX(0); } }
+  @keyframes sweep { 0%,17% { transform:translateX(0); } 57%,100% { transform:translateX(470px); } }
+}
 </style>
-<rect x="0.5" y="0.5" width="494" height="236" fill="#fff8fc" stroke="#a51f61"/>
-<g fill="#a51f61" font-family="Arial, sans-serif" font-size="14">
-  <text x="24" y="35" font-size="19" font-weight="bold">Топ языков</text>
-  
-  <text x="24" y="68">Python</text>
-  <rect x="172" y="59" width="235" height="7" fill="#f9d9e8"/>
-  <rect class="bar" style="--delay:0ms" x="172" y="59" width="121.58" height="7" fill="#a51f61"/>
-  <text x="471" y="68" text-anchor="end">51,7%</text>
-  <text x="24" y="93">HTML</text>
-  <rect x="172" y="84" width="235" height="7" fill="#f9d9e8"/>
-  <rect class="bar" style="--delay:90ms" x="172" y="84" width="99.69" height="7" fill="#a51f61"/>
-  <text x="471" y="93" text-anchor="end">42,4%</text>
-  <text x="24" y="118">CSS</text>
-  <rect x="172" y="109" width="235" height="7" fill="#f9d9e8"/>
-  <rect class="bar" style="--delay:180ms" x="172" y="109" width="8.77" height="7" fill="#a51f61"/>
-  <text x="471" y="118" text-anchor="end">3,7%</text>
-  <text x="24" y="143">JavaScript</text>
-  <rect x="172" y="134" width="235" height="7" fill="#f9d9e8"/>
-  <rect class="bar" style="--delay:270ms" x="172" y="134" width="2.71" height="7" fill="#a51f61"/>
-  <text x="471" y="143" text-anchor="end">1,2%</text>
-  <text x="24" y="168">PHP</text>
-  <rect x="172" y="159" width="235" height="7" fill="#f9d9e8"/>
-  <rect class="bar" style="--delay:360ms" x="172" y="159" width="1.87" height="7" fill="#a51f61"/>
-  <text x="471" y="168" text-anchor="end">0,8%</text>
-  <text x="24" y="193">SCSS</text>
-  <rect x="172" y="184" width="235" height="7" fill="#f9d9e8"/>
-  <rect class="bar" style="--delay:450ms" x="172" y="184" width="1.00" height="7" fill="#a51f61"/>
-  <text x="471" y="193" text-anchor="end">0,1%</text>
-  <text x="24" y="219" font-size="12" fill="#783958">Доля кода в публичных репозиториях · без TeX</text>
+<rect x="1" y="1" width="898" height="238" rx="23" fill="#fff7fb" stroke="#e6a1c2" stroke-width="2"/>
+<g font-family="system-ui,sans-serif">
+  <text x="30" y="41" font-size="25" font-weight="750" fill="#902653">Топ языков</text>
+  <text x="869" y="41" text-anchor="end" font-size="14" fill="#79344f">По объёму кода · без TeX</text>
+  <g transform="translate(30 74)">
+  <text x="0" y="0" fill="#79344f" font-size="16" font-weight="640">Python</text>
+  <text x="405" y="0" fill="#a51f61" font-size="16" text-anchor="end">51,7%</text>
+  <rect x="0" y="11" width="405" height="9" rx="4.5" fill="#f4d6e6"/>
+  <rect class="bar" style="--delay:0ms" x="0" y="11" width="209.52" height="9" rx="4.5" fill="url(#ink)"/>
+  <clipPath id="fill-0"><rect x="0" y="11" width="209.52" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#fill-0)"><rect class="shine" style="--delay:0ms" x="-60" y="11" width="60" height="9" fill="url(#highlight)"/></g>
+</g><g transform="translate(30 127)">
+  <text x="0" y="0" fill="#79344f" font-size="16" font-weight="640">HTML</text>
+  <text x="405" y="0" fill="#a51f61" font-size="16" text-anchor="end">42,4%</text>
+  <rect x="0" y="11" width="405" height="9" rx="4.5" fill="#f4d6e6"/>
+  <rect class="bar" style="--delay:160ms" x="0" y="11" width="171.81" height="9" rx="4.5" fill="url(#ink)"/>
+  <clipPath id="fill-1"><rect x="0" y="11" width="171.81" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#fill-1)"><rect class="shine" style="--delay:380ms" x="-60" y="11" width="60" height="9" fill="url(#highlight)"/></g>
+</g><g transform="translate(30 180)">
+  <text x="0" y="0" fill="#79344f" font-size="16" font-weight="640">CSS</text>
+  <text x="405" y="0" fill="#a51f61" font-size="16" text-anchor="end">3,7%</text>
+  <rect x="0" y="11" width="405" height="9" rx="4.5" fill="#f4d6e6"/>
+  <rect class="bar" style="--delay:320ms" x="0" y="11" width="15.11" height="9" rx="4.5" fill="url(#ink)"/>
+  <clipPath id="fill-2"><rect x="0" y="11" width="15.11" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#fill-2)"><rect class="shine" style="--delay:760ms" x="-60" y="11" width="60" height="9" fill="url(#highlight)"/></g>
+</g><g transform="translate(463 74)">
+  <text x="0" y="0" fill="#79344f" font-size="16" font-weight="640">JavaScript</text>
+  <text x="405" y="0" fill="#a51f61" font-size="16" text-anchor="end">1,2%</text>
+  <rect x="0" y="11" width="405" height="9" rx="4.5" fill="#f4d6e6"/>
+  <rect class="bar" style="--delay:480ms" x="0" y="11" width="4.68" height="9" rx="4.5" fill="url(#ink)"/>
+  <clipPath id="fill-3"><rect x="0" y="11" width="4.68" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#fill-3)"><rect class="shine" style="--delay:1140ms" x="-60" y="11" width="60" height="9" fill="url(#highlight)"/></g>
+</g><g transform="translate(463 127)">
+  <text x="0" y="0" fill="#79344f" font-size="16" font-weight="640">PHP</text>
+  <text x="405" y="0" fill="#a51f61" font-size="16" text-anchor="end">0,8%</text>
+  <rect x="0" y="11" width="405" height="9" rx="4.5" fill="#f4d6e6"/>
+  <rect class="bar" style="--delay:640ms" x="0" y="11" width="3.23" height="9" rx="4.5" fill="url(#ink)"/>
+  <clipPath id="fill-4"><rect x="0" y="11" width="3.23" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#fill-4)"><rect class="shine" style="--delay:1520ms" x="-60" y="11" width="60" height="9" fill="url(#highlight)"/></g>
+</g><g transform="translate(463 180)">
+  <text x="0" y="0" fill="#79344f" font-size="16" font-weight="640">SCSS</text>
+  <text x="405" y="0" fill="#a51f61" font-size="16" text-anchor="end">0,1%</text>
+  <rect x="0" y="11" width="405" height="9" rx="4.5" fill="#f4d6e6"/>
+  <rect class="bar" style="--delay:800ms" x="0" y="11" width="2.00" height="9" rx="4.5" fill="url(#ink)"/>
+  <clipPath id="fill-5"><rect x="0" y="11" width="2.00" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#fill-5)"><rect class="shine" style="--delay:1900ms" x="-60" y="11" width="60" height="9" fill="url(#highlight)"/></g>
+</g>
 </g>
 </svg>
