@@ -21,8 +21,6 @@
   <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/marin-languages.svg?v=editorial2" width="900" alt="Топ языков по объёму кода в публичных репозиториях">
 </p>
 
-<h2>Инженерная практика</h2>
-
 <p align="center">
   <img src="assets/marin-editorial-review.svg" width="900" alt="Проверка изменений: прогнать проверки и разобрать ошибки до слияния.">
 </p>
