@@ -4,7 +4,9 @@
 
 <h1 align="center">Noctyrnx</h1>
 
-<p align="center"><strong>Python · автоматизация · Telegram-боты · AI</strong></p>
+<p align="center">
+  <img src="assets/terminal.svg" width="495" alt="Python · автоматизация · Telegram-боты · AI">
+</p>
 
 <p align="center">Собираю инструменты для задач, которые слишком часто приходится делать вручную.</p>
 

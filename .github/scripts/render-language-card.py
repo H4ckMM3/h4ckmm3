@@ -19,6 +19,8 @@ for page in pages:
         if not repo["fork"] and not repo["private"]:
             languages.update(github(f"repos/{repo['full_name']}/languages"))
 
+languages.pop("TeX", None)
+
 if not languages:
     raise SystemExit("No public language statistics available")
 
@@ -33,17 +35,27 @@ for index, (name, size) in enumerate(top):
     rows.append(f'''
   <text x="24" y="{y}">{escape(name)}</text>
   <rect x="172" y="{y - 9}" width="235" height="7" fill="#dedede"/>
-  <rect x="172" y="{y - 9}" width="{max(1, 235 * size / total):.2f}" height="7" fill="#111"/>
+  <rect class="bar" style="--delay:{index * 90}ms" x="172" y="{y - 9}" width="{max(1, 235 * size / total):.2f}" height="7" fill="#111"/>
   <text x="471" y="{y}" text-anchor="end">{percentage}%</text>''')
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="{height}" viewBox="0 0 495 {height}" role="img" aria-labelledby="title desc">
 <title id="title">Топ языков</title>
-<desc id="desc">Доли по объёму кода в собственных публичных репозиториях {escape(owner)}.</desc>
+<desc id="desc">Доли по объёму кода в собственных публичных репозиториях {escape(owner)} без учёта TeX.</desc>
+<style>
+  @media (prefers-reduced-motion: no-preference) {{
+    .bar {{
+      transform-box: fill-box;
+      transform-origin: left center;
+      animation: fill-bar 650ms ease-out var(--delay) both;
+    }}
+    @keyframes fill-bar {{ from {{ transform: scaleX(0); }} }}
+  }}
+</style>
 <rect x="0.5" y="0.5" width="494" height="{height - 1}" fill="#fff" stroke="#111"/>
 <g fill="#111" font-family="Arial, sans-serif" font-size="14">
   <text x="24" y="35" font-size="19" font-weight="bold">Топ языков</text>
   {''.join(rows)}
-  <text x="24" y="{height - 18}" font-size="12" fill="#444">Доля кода в собственных публичных репозиториях</text>
+  <text x="24" y="{height - 18}" font-size="12" fill="#444">Доля кода в публичных репозиториях · без TeX</text>
 </g>
 </svg>
 '''
