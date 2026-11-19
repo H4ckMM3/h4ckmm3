@@ -12,6 +12,7 @@
 <p align="center">
   <a href="https://t.me/GyaruDev"><img src="assets/marin-link-telegram.svg" width="139" alt="Telegram"></a>
   <a href="https://vk.com/h4ckm3"><img src="assets/marin-link-vk.svg" width="139" alt="VK"></a>
+  <img src="assets/marin-link-discord.svg" width="196" alt="Discord · marin · @h4ckm3">
 </p>
 
 <p align="center">
@@ -19,7 +20,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/marin-calendar.svg" width="900" alt="Розовая змейка на календаре вкладов GitHub">
+  <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/marin-calendar.svg?v=2" width="900" alt="Розовая змейка на календаре вкладов GitHub">
 </p>
 
 <p align="center">
