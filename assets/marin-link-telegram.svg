@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="139" height="45" viewBox="0 0 139 45" role="img">
+<title>Telegram</title>
+<defs><clipPath id="pill"><rect x="1" y="1" width="137" height="43" rx="21.5"/></clipPath></defs>
+<style>
+.glint { display:none; }
+@media (prefers-reduced-motion: no-preference) {
+  .glint { display:inline; animation:glint 6s ease-in-out 0s infinite; }
+  @keyframes glint { 0%,38% { transform:translateX(0); } 67%,100% { transform:translateX(200px); } }
+}
+</style>
+<rect x="1" y="1" width="137" height="43" rx="21.5" fill="#fff1f8" stroke="#e6a1c2" stroke-width="2"/>
+<g clip-path="url(#pill)"><path class="glint" d="M-45 45l29-45h28l-29 45z" fill="#fff" opacity=".8"/></g>
+<g transform="translate(8 4)"><path d="m8 17 21-8-4 19-6-5-4 4 1-7 10-7-14 6z" fill="#a51f61"/></g>
+<text x="47" y="28" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#902653">Telegram</text>
+<path d="M116 26l8-8m-6 0h6v6" fill="none" stroke="#b94c7b" stroke-width="1.8" stroke-linecap="round"/>
+</svg>

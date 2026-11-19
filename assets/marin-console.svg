@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="149" viewBox="0 0 900 149" role="img" aria-labelledby="title">
+<title id="title">marin — инженер-программист, Python и DevOps</title>
+<defs>
+  <linearGradient id="paper"><stop stop-color="#fffafd"/><stop offset="1" stop-color="#fbddeb"/></linearGradient>
+  <clipPath id="typing"><rect class="text-reveal" x="60" y="55" width="309" height="47"/></clipPath>
+</defs>
+<style>
+@media (prefers-reduced-motion: no-preference) {
+  .text-reveal { animation:typing 9s steps(22, end) infinite; }
+  .cursor { animation:cursor 9s steps(22, end) infinite, blink 1.05s step-end infinite; }
+  .signal { animation:breathe 2.6s ease-in-out infinite; transform-origin:108px 30px; }
+  @keyframes typing { 0%,5% { width:0; } 30%,100% { width:309px; } }
+  @keyframes cursor { 0%,5% { transform:translateX(-309px); } 30%,100% { transform:translateX(0); } }
+  @keyframes blink { 50% { opacity:.25; } }
+  @keyframes breathe { 50% { opacity:.15; transform:scale(1.45); } }
+}
+</style>
+<rect x="1" y="1" width="898" height="147" rx="23" fill="url(#paper)" stroke="#e6a1c2" stroke-width="2"/>
+<path d="M2 48h896" stroke="#edbfd4"/>
+<g fill="#d96498"><circle cx="31" cy="30" r="4.5"/><circle cx="51" cy="30" r="4.5" opacity=".66"/><circle cx="71" cy="30" r="4.5" opacity=".35"/></g>
+<circle class="signal" cx="108" cy="30" r="8" fill="none" stroke="#d34682"/>
+<circle cx="108" cy="30" r="3.5" fill="#bb346e"/>
+<text x="123" y="35" font-family="ui-monospace,monospace" font-size="15" fill="#79344f">marin@lab</text>
+<g font-family="system-ui,sans-serif">
+  <text x="31" y="88" font-size="27" font-weight="700" fill="#a51f61">&gt;</text>
+  <text class="title-guide" aria-hidden="true" x="60" y="87" font-size="26" font-weight="750" fill="#902653" opacity=".54" textLength="309" lengthAdjust="spacingAndGlyphs">Инженер-программист</text>
+  <text x="60" y="87" font-size="26" font-weight="750" fill="#902653" textLength="309" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)">Инженер-программист</text>
+  <text x="60" y="117" font-size="15" fill="#79344f">Разработка на Python и автоматизация в DevOps</text>
+  <g transform="translate(651 69)"><rect width="93" height="38" rx="19" fill="#fff" stroke="#e9acc9"/><text x="46.5" y="24" text-anchor="middle" font-size="15" font-weight="650" fill="#98245a">Python</text></g>
+  <g transform="translate(755 69)"><rect width="112" height="38" rx="19" fill="#a51f61"/><text x="56" y="24" text-anchor="middle" font-size="15" font-weight="650" fill="#fff">DevOps</text></g>
+</g>
+<rect class="cursor" x="377" y="68" width="7" height="23" rx="2" fill="#ba2b66"/>
+</svg>
