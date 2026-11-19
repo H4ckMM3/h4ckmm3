@@ -34,8 +34,8 @@ for index, (name, size) in enumerate(top):
     percentage = f"{share:.1f}".replace(".", ",")
     rows.append(f'''
   <text x="24" y="{y}">{escape(name)}</text>
-  <rect x="172" y="{y - 9}" width="235" height="7" fill="#dedede"/>
-  <rect class="bar" style="--delay:{index * 90}ms" x="172" y="{y - 9}" width="{max(1, 235 * size / total):.2f}" height="7" fill="#111"/>
+  <rect x="172" y="{y - 9}" width="235" height="7" fill="#f9d9e8"/>
+  <rect class="bar" style="--delay:{index * 90}ms" x="172" y="{y - 9}" width="{max(1, 235 * size / total):.2f}" height="7" fill="#a51f61"/>
   <text x="471" y="{y}" text-anchor="end">{percentage}%</text>''')
 
 svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="{height}" viewBox="0 0 495 {height}" role="img" aria-labelledby="title desc">
@@ -51,11 +51,11 @@ svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="{height}" 
     @keyframes fill-bar {{ from {{ transform: scaleX(0); }} }}
   }}
 </style>
-<rect x="0.5" y="0.5" width="494" height="{height - 1}" fill="#fff" stroke="#111"/>
-<g fill="#111" font-family="Arial, sans-serif" font-size="14">
+<rect x="0.5" y="0.5" width="494" height="{height - 1}" fill="#fff8fc" stroke="#a51f61"/>
+<g fill="#a51f61" font-family="Arial, sans-serif" font-size="14">
   <text x="24" y="35" font-size="19" font-weight="bold">Топ языков</text>
   {''.join(rows)}
-  <text x="24" y="{height - 18}" font-size="12" fill="#444">Доля кода в публичных репозиториях · без TeX</text>
+  <text x="24" y="{height - 18}" font-size="12" fill="#783958">Доля кода в публичных репозиториях · без TeX</text>
 </g>
 </svg>
 '''
