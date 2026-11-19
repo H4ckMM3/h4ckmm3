@@ -1,81 +1,34 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120"/>
+  <img src="./assets/noctyrnx.svg" width="960" alt="Noctyrnx. Ночная смена — обложка чёрно-белой манги с рысью в чернильной тени">
 </p>
 
-<h1 align="center">👋 Привет, я Noctyrnx</h1>
-<h3 align="center">Python / Automation / Product-driven Developer</h3>
+# Ночная смена Noctyrnx
 
-<p align="center">
-  Я делаю инструменты, которые экономят время, автоматизируют рутину  
-  и превращают идеи в рабочие продукты.
-</p>
+Я пишу на Python. Больше всего люблю момент, когда у знакомой рутины наконец появляется кнопка. Открыть Telegram, достать нужный сниппет и вернуться к коду, пока ещё помнишь, зачем он понадобился. Вот такой софт мне интересно делать.
 
----
+## Глава 01 ◼ У каждого проекта своя завязка
 
-## 🧠 Кто я и чем полезен
+| В кадре | Что происходит |
+| :--- | :--- |
+| **SEO-Autotester** | Разбирает сайт, помогает с семантикой и генерирует метатеги с помощью LLM. Интерфейс собран на Flet. |
+| **Snippet Bot** | Нужный фрагмент кода можно достать прямо в Telegram. Под капотом — Python и aiogram. |
+| **FinanseApp** | Показывает, куда уходят деньги. Личные финансы и аналитика в приложении на Flet. |
+| **FTP-Backup** | Берёт на себя повторяющуюся работу по созданию резервных копий. Написан на Python. |
+| **Chat Local** | Два собеседника, локальная сеть и сообщения, которые бегают между ними по сокетам. На стороне кода — Node.js. |
+| **Snake Game** | Один поворот отделяет новый рекорд от встречи с собственным хвостом. Этюд на JavaScript и Canvas. |
 
-- 🐍 **Python-разработчик** (фокус: автоматизация, боты, desktop-приложения)
-- ⚙️ Делаю **реальные инструменты**, а не учебные демки
-- 🤖 Работаю с **AI / LLM**, Telegram-ботами, SEO-автоматизацией
-- 🧩 Люблю проекты, которые можно **использовать каждый день**
-- 📈 Думаю как продукт: польза → UX → масштабирование
+## Глава 02 ◧ За кадром
 
----
+**На рабочем столе** — Python, Flet и aiogram. На них я собираю десктопные приложения, Telegram-ботов и инструменты для автоматизации. В SEO-задачах подключаю LLM там, где нужно перейти от анализа к тексту.
 
-## 🧪 Проекты, которыми горжусь
+**В наборе инструментов** — JavaScript, Node.js, HTML, CSS и PHP. Для работы с кодом — Git, GitHub и VS Code.
 
-| Проект | Что делает | Стек |
-|------|-----------|------|
-| **SEO-Autotester** | Анализ сайтов, генерация мета-тегов, семантика, LLM | Python, Flet, AI |
-| **Snippet Bot** | Telegram-бот для быстрого доступа к сниппетам кода | Python, aiogram |
-| **FinanseApp** | Личный контроль и аналитика финансов | Python, Flet |
-| **FTP-Backup** | Автоматическое резервное копирование | Python |
-| **Chat Local** | Локальный чат на сокетах | Node.js |
-| **Snake Game** | Классика как тренировка логики | JS, Canvas |
+**В следующей главе** — углубляюсь в Python-бэкенд с FastAPI и Django. Хочу развивать свои инструменты в open source, чтобы ими могли пользоваться и другие разработчики.
 
-> ⚡ Все проекты — живые, с идеей и практической пользой
+## Глава 03 ◩ На полях
 
----
+Какую задачу ты всё ещё делаешь вручную? Напиши мне — люблю разбирать такие истории.
 
-## 🧰 Стек и инструменты
+[Telegram · @GyaruDev](https://t.me/GyaruDev)　/　[VK · h4ckm3](https://vk.com/h4ckm3)　/　[Активность на GitHub · H4ckMM3](https://github.com/H4ckMM3?tab=overview)
 
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,nodejs,php,git,github,vscode" />
-</p>
-
-**Основной фокус сейчас:**
-- Python (Flet, FastAPI, Django — в процессе)
-- Telegram Bots
-- AI / LLM-интеграции
-- Автоматизация процессов
-
----
-
-## 📊 GitHub активность
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=H4ckMM3&show_icons=true&theme=radical" />
-  <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=H4ckMM3&theme=radical" />
-</p>
-
----
-
-## 🔮 Куда двигаюсь дальше
-
-- 🚀 Python backend (FastAPI / Django)
-- 🤖 Больше AI-инструментов для реальных задач
-- 🧠 Продукты, которые можно масштабировать
-- 🌍 Open-source и полезные тулзы для разработчиков
-
----
-
-## 📬 Связь
-
-- 💬 Telegram: [@GyaruDev](https://t.me/GyaruDev)
-- 🌐 VK: https://vk.com/h4ckm3
-- 📧 Email: скоро добавлю 😉
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer"/>
-</p>
+<p align="right"><sub>つづく · Продолжение следует</sub></p>
