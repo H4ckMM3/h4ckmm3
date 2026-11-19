@@ -51,4 +51,11 @@
   </a>
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/snake-light.svg" width="100%" alt="Чёрно-белая змейка проходит по календарю вкладов H4ckMM3 на GitHub">
+  </picture>
+</p>
+
 <p align="right"><sub>つづく / Продолжение следует</sub></p>
