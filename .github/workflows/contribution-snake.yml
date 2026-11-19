@@ -9,6 +9,7 @@ on:
     paths:
       - .github/workflows/contribution-snake.yml
       - .github/scripts/render-language-card.py
+      - .github/scripts/render-activity-panel.py
 
 permissions:
   contents: write
@@ -35,6 +36,11 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PROFILE_OWNER: ${{ github.repository_owner }}
         run: python3 .github/scripts/render-language-card.py "$PROFILE_OWNER" dist/top-languages.svg
+      - name: Generate activity panels
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PROFILE_OWNER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/render-activity-panel.py "$PROFILE_OWNER" dist
       - name: Publish profile graphics
         shell: bash
         run: |
@@ -49,8 +55,8 @@ jobs:
             fi
             git switch --orphan "$branch"
           fi
-          mv dist/snake-{light,dark}.svg dist/top-languages.svg .
-          git add -- snake-light.svg snake-dark.svg top-languages.svg
+          mv dist/snake-{light,dark}.svg dist/top-languages.svg dist/marin-{activity,calendar,languages}.svg .
+          git add -- snake-light.svg snake-dark.svg top-languages.svg marin-activity.svg marin-calendar.svg marin-languages.svg
           if ! git diff --cached --quiet; then
             git -c user.name='github-actions[bot]' \
               -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \

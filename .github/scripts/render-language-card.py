@@ -26,38 +26,45 @@ if not languages:
 
 total = languages.total()
 top = sorted(languages.items(), key=lambda item: (-item[1], item[0]))[:6]
-height = 87 + 25 * len(top)
 rows = []
 for index, (name, size) in enumerate(top):
-    y = 68 + index * 25
-    share = 100 * size / total
-    percentage = f"{share:.1f}".replace(".", ",")
-    rows.append(f'''
-  <text x="24" y="{y}">{escape(name)}</text>
-  <rect x="172" y="{y - 9}" width="235" height="7" fill="#f9d9e8"/>
-  <rect class="bar" style="--delay:{index * 90}ms" x="172" y="{y - 9}" width="{max(1, 235 * size / total):.2f}" height="7" fill="#a51f61"/>
-  <text x="471" y="{y}" text-anchor="end">{percentage}%</text>''')
+    x = 30 + 433 * (index // 3)
+    y = 74 + 53 * (index % 3)
+    share = size / total
+    label = f"{100 * share:.1f}".replace(".", ",")
+    width = max(2, 405 * share)
+    rows.append(f'''<g transform="translate({x} {y})">
+  <text x="0" y="0" fill="#79344f" font-size="16" font-weight="640">{escape(name)}</text>
+  <text x="405" y="0" fill="#a51f61" font-size="16" text-anchor="end">{label}%</text>
+  <rect x="0" y="11" width="405" height="9" rx="4.5" fill="#f4d6e6"/>
+  <rect class="bar" style="--delay:{index * 160}ms" x="0" y="11" width="{width:.2f}" height="9" rx="4.5" fill="url(#ink)"/>
+  <clipPath id="fill-{index}"><rect x="0" y="11" width="{width:.2f}" height="9" rx="4.5"/></clipPath>
+  <g clip-path="url(#fill-{index})"><rect class="shine" style="--delay:{index * 380}ms" x="-60" y="11" width="60" height="9" fill="url(#highlight)"/></g>
+</g>''')
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="495" height="{height}" viewBox="0 0 495 {height}" role="img" aria-labelledby="title desc">
-<title id="title">Топ языков</title>
-<desc id="desc">Доли по объёму кода в собственных публичных репозиториях {escape(owner)} без учёта TeX.</desc>
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+<title id="title">Языки в репозиториях</title><desc id="desc">Доля кода в собственных публичных репозиториях {escape(owner)} без TeX.</desc>
+<defs>
+  <linearGradient id="ink"><stop stop-color="#a51f61"/><stop offset="1" stop-color="#e65d9d"/></linearGradient>
+  <linearGradient id="highlight"><stop stop-color="#fff" stop-opacity="0"/><stop offset=".6" stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
 <style>
-  @media (prefers-reduced-motion: no-preference) {{
-    .bar {{
-      transform-box: fill-box;
-      transform-origin: left center;
-      animation: fill-bar 650ms ease-out var(--delay) both;
-    }}
-    @keyframes fill-bar {{ from {{ transform: scaleX(0); }} }}
-  }}
+.shine {{ display:none; }}
+@media (prefers-reduced-motion: no-preference) {{
+  .bar {{ transform-origin:left; transform-box:fill-box; animation:grow .82s ease-out var(--delay) both; }}
+  .shine {{ display:inline; animation:sweep 5s ease-in-out var(--delay) infinite; }}
+  @keyframes grow {{ from {{ transform:scaleX(0); }} }}
+  @keyframes sweep {{ 0%,17% {{ transform:translateX(0); }} 57%,100% {{ transform:translateX(470px); }} }}
+}}
 </style>
-<rect x="0.5" y="0.5" width="494" height="{height - 1}" fill="#fff8fc" stroke="#a51f61"/>
-<g fill="#a51f61" font-family="Arial, sans-serif" font-size="14">
-  <text x="24" y="35" font-size="19" font-weight="bold">Топ языков</text>
-  {''.join(rows)}
-  <text x="24" y="{height - 18}" font-size="12" fill="#783958">Доля кода в публичных репозиториях · без TeX</text>
+<rect x="1" y="1" width="898" height="238" rx="23" fill="#fff7fb" stroke="#e6a1c2" stroke-width="2"/>
+<g font-family="system-ui,sans-serif">
+  <text x="30" y="41" font-size="25" font-weight="750" fill="#902653">Топ языков</text>
+  <text x="869" y="41" text-anchor="end" font-size="14" fill="#79344f">По объёму кода · без TeX</text>
+  {"".join(rows)}
 </g>
 </svg>
 '''
 output.parent.mkdir(parents=True, exist_ok=True)
 output.write_text(svg, encoding="utf-8")
+output.with_name("marin-languages.svg").write_text(svg, encoding="utf-8")
