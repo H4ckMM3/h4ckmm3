@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="205" viewBox="0 0 900 205" role="img" aria-labelledby="title desc">
+  <title id="title">От задачи к автоматизации</title>
+  <desc id="desc">Разобрать задачу, написать код, запустить повторяемый процесс.</desc>
+  <style>
+    .spark { display:none; }
+    @media (prefers-reduced-motion: no-preference) {
+      .node { animation:handoff 5.4s ease-in-out var(--delay) infinite; }
+      .spark { display:inline; animation:travel 2.7s linear var(--delay) infinite; }
+      @keyframes handoff { 0%,30%,100% { fill:#fff2f8; } 13% { fill:#f8c7df; } }
+      @keyframes travel { 0% { stroke-dashoffset:70; opacity:0; } 23%,65% { opacity:1; } 100% { stroke-dashoffset:0; opacity:0; } }
+    }
+  </style>
+  <rect x="1" y="1" width="898" height="203" rx="23" fill="#fff7fb" stroke="#e6a1c2" stroke-width="2"/>
+  <g font-family="system-ui,sans-serif">
+    <text x="30" y="45" font-size="24" font-weight="750" fill="#902653">От задачи к автоматизации</text>
+    <g fill="none" stroke="#e5a1c3" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5 6">
+      <path d="M250 116h66M584 116h66"/>
+    </g>
+    <g fill="none" stroke="#c52e76" stroke-width="4.2" stroke-linecap="round" stroke-dasharray="13 57">
+      <path class="spark" style="--delay:0s" d="M250 116h66"/>
+      <path class="spark" style="--delay:1.35s" d="M584 116h66"/>
+    </g>
+    <g transform="translate(30 78)">
+      <rect class="node" style="--delay:0s" width="220" height="76" rx="17" fill="#fff2f8" stroke="#edb4cf"/>
+      <g transform="translate(24 25)" fill="none" stroke="#a51f61" stroke-width="2.4" stroke-linecap="round"><circle cx="10" cy="10" r="8"/><path d="m16 16 8 8"/></g>
+      <text x="63" y="43" font-size="17" font-weight="700" fill="#902653">Разобрать задачу</text>
+    </g>
+    <g transform="translate(316 78)">
+      <rect class="node" style="--delay:1.8s" width="268" height="76" rx="17" fill="#fff2f8" stroke="#edb4cf"/>
+      <path d="m32 29-8 9 8 9m14-18 8 9-8 9" fill="none" stroke="#a51f61" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="73" y="34" font-size="17" font-weight="700" fill="#902653">Написать код<tspan x="73" dy="20" font-size="14" font-weight="500">и проверить результат</tspan></text>
+    </g>
+    <g transform="translate(650 78)">
+      <rect class="node" style="--delay:3.6s" width="220" height="76" rx="17" fill="#fff2f8" stroke="#edb4cf"/>
+      <path d="M25 27v22l19-11Z" fill="#a51f61"/>
+      <text x="58" y="43" font-size="16" font-weight="700" fill="#902653">Автоматизировать</text>
+    </g>
+    <path d="M110 179h680" stroke="#eed1e0" stroke-linecap="round"/>
+  </g>
+</svg>
