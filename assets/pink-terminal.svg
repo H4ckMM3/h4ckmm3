@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="64" viewBox="0 0 495 64" role="img" aria-labelledby="title">
+  <title id="title">Инженер-программист · Python · DevOps</title>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: type 9s steps(44, end) infinite; }
+      .cursor-position { animation: advance 9s steps(44, end) infinite; }
+      .cursor { animation: blink 900ms step-end infinite; }
+      @keyframes type {
+        0%, 8% { width: 0; }
+        38%, 100% { width: 410px; }
+      }
+      @keyframes advance {
+        0%, 8% { transform: translateX(-410px); }
+        38%, 100% { transform: translateX(0); }
+      }
+      @keyframes blink { 50% { opacity: 0; } }
+    }
+  </style>
+  <defs>
+    <clipPath id="screen">
+      <rect class="reveal" x="47" y="0" width="410" height="64"/>
+    </clipPath>
+  </defs>
+  <rect x=".5" y=".5" width="494" height="63" fill="#fff8fc" stroke="#e7a7c7"/>
+  <g fill="#a51f61" font-family="ui-monospace, monospace" font-size="15">
+    <text x="22" y="38">&gt;</text>
+    <text x="47" y="38" textLength="407" lengthAdjust="spacingAndGlyphs" clip-path="url(#screen)">Инженер-программист · Python · DevOps</text>
+  </g>
+  <g class="cursor-position"><rect class="cursor" x="457" y="25" width="8" height="16" fill="#a51f61"/></g>
+</svg>

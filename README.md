@@ -1,17 +1,17 @@
 <p align="center">
   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="assets/cover.jpg">
-    <img src="assets/cover-motion.svg" width="100%" alt="NOCTYRNX / AFTER HOURS — чёрно-белая манга о ночном городе">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/marin-cover.jpg">
+    <img src="assets/marin-cover-motion.svg" width="100%" alt="NOCTYRNX · Python / DevOps — Марин Китагава в розовой домашней лаборатории">
   </picture>
 </p>
 
 <h1 align="center">Noctyrnx</h1>
 
 <p align="center">
-  <img src="assets/terminal.svg" width="495" alt="Python · автоматизация · Telegram-боты · AI">
+  <img src="assets/pink-terminal.svg" width="495" alt="Инженер-программист · Python · DevOps">
 </p>
 
-<p align="center">Собираю инструменты для задач, которые слишком часто приходится делать вручную.</p>
+<p align="center">Пишу инструменты на Python и автоматизирую рутину вокруг разработки и инфраструктуры.</p>
 
 <p align="center">
   <a href="https://t.me/GyaruDev">Telegram</a> &nbsp;·&nbsp;
@@ -19,13 +19,13 @@
   <a href="https://github.com/H4ckMM3?tab=overview">Активность GitHub</a>
 </p>
 
-<h2>Три задачи после полуночи</h2>
+<h2>Из моей мастерской</h2>
 
 <table>
   <tr>
-    <td width="33%"><img src="assets/seo-motion.svg" alt="Луч сканирует распечатку сайта под лупой"></td>
-    <td width="33%"><a href="https://github.com/H4ckMM3/Snippet-Bot"><img src="assets/snippet-motion.svg" alt="В облачках чата Telegram появляются точки набора"></a></td>
-    <td width="33%"><a href="https://github.com/H4ckMM3/FinanseApp"><img src="assets/finance-motion.svg" alt="График расходов оживает на мониторе"></a></td>
+    <td width="33%"><img src="assets/marin-seo-motion.svg" alt="Луч сканирует распечатку сайта под лупой"></td>
+    <td width="33%"><a href="https://github.com/H4ckMM3/Snippet-Bot"><img src="assets/marin-snippet-motion.svg" alt="В облачках чата Telegram появляются точки набора"></a></td>
+    <td width="33%"><a href="https://github.com/H4ckMM3/FinanseApp"><img src="assets/marin-finance-motion.svg" alt="График расходов оживает на мониторе"></a></td>
   </tr>
   <tr>
     <td><strong>SEO-Autotester</strong><br>Проверить сайт и подготовить метатеги.<br><sub>Python · Flet · LLM</sub></td>
@@ -42,28 +42,28 @@
 
 <h2>В работе</h2>
 
-<p>Собираю десктопные приложения на Flet, пишу ботов на aiogram и подключаю LLM к SEO-задачам. Сейчас углубляюсь в FastAPI и Django, чтобы превращать локальные инструменты в сервисы, которыми могут пользоваться другие.</p>
+<p>От Telegram-ботов и десктопных приложений на Python до автоматизации в DevOps. Интересуюсь FastAPI и Django и развиваю свои инструменты так, чтобы их было проще запускать и поддерживать.</p>
 
 <h2>Активность на GitHub</h2>
 
 <p align="center">
   <a href="https://github.com/H4ckMM3?tab=overview">
-    <img src="https://github-readme-stats.vercel.app/api?username=H4ckMM3&amp;show_icons=true&amp;locale=ru&amp;title_color=111111&amp;text_color=111111&amp;icon_color=111111&amp;bg_color=FFFFFF&amp;border_color=111111&amp;border_radius=0&amp;disable_animations=true&amp;card_width=495" width="495" alt="Статистика H4ckMM3 на GitHub: звёзды, коммиты, пул-реквесты и задачи">
+    <img src="https://github-readme-stats.vercel.app/api?username=H4ckMM3&amp;show_icons=true&amp;locale=ru&amp;title_color=A51F61&amp;text_color=A51F61&amp;icon_color=A51F61&amp;bg_color=FFF8FC&amp;border_color=E7A7C7&amp;border_radius=14&amp;disable_animations=true&amp;card_width=495" width="495" alt="Статистика H4ckMM3 на GitHub: звёзды, коммиты, пул-реквесты и задачи">
   </a>
   <br>
   <a href="https://github.com/H4ckMM3?tab=repositories">
-    <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/top-languages.svg?v=2" width="495" alt="Топ языков H4ckMM3 по объёму кода в собственных публичных репозиториях">
+    <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/top-languages.svg?v=3" width="495" alt="Топ языков H4ckMM3 по объёму кода в собственных публичных репозиториях">
   </a>
   <br>
   <a href="https://github.com/H4ckMM3?tab=overview">
-    <img src="https://streak-stats.demolab.com/?user=H4ckMM3&amp;locale=ru&amp;background=FFFFFF&amp;border=111111&amp;stroke=111111&amp;ring=111111&amp;fire=111111&amp;currStreakNum=111111&amp;sideNums=111111&amp;currStreakLabel=111111&amp;sideLabels=111111&amp;dates=444444&amp;border_radius=0" width="495" alt="Активность H4ckMM3: всего вкладов, текущая и самая длинная серии">
+    <img src="https://streak-stats.demolab.com/?user=H4ckMM3&amp;locale=ru&amp;background=FFF8FC&amp;border=E7A7C7&amp;stroke=A51F61&amp;ring=A51F61&amp;fire=A51F61&amp;currStreakNum=A51F61&amp;sideNums=A51F61&amp;currStreakLabel=A51F61&amp;sideLabels=A51F61&amp;dates=783958&amp;border_radius=14" width="495" alt="Активность H4ckMM3: всего вкладов, текущая и самая длинная серии">
   </a>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/snake-dark.svg">
-    <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/snake-light.svg" width="100%" alt="Чёрно-белая змейка проходит по календарю вкладов H4ckMM3 на GitHub">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/snake-dark.svg?v=pink">
+    <img src="https://raw.githubusercontent.com/H4ckMM3/h4ckmm3/snake-output/snake-light.svg?v=pink" width="100%" alt="Розовая змейка проходит по календарю вкладов H4ckMM3 на GitHub">
   </picture>
 </p>
 
