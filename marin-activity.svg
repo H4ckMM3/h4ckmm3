@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200" role="img" aria-labelledby="title desc">
-<title id="title">Активность marin за последний год</title><desc id="desc">Вклады: 33, Коммиты: 30, Пул-реквесты: 0, Текущая серия: 1, Лучшая серия: 1</desc>
+<title id="title">Активность marin за последний год</title><desc id="desc">Вклады: 35, Коммиты: 32, Пул-реквесты: 0, Текущая серия: 1, Лучшая серия: 1</desc>
 <defs><linearGradient id="paper"><stop stop-color="#fff9fc"/><stop offset="1" stop-color="#fae0ee"/></linearGradient></defs>
 <style>
 @media (prefers-reduced-motion: no-preference) {
@@ -19,13 +19,13 @@
 <g transform="translate(29 77)">
   <rect class="tile" style="--delay:0ms" width="158" height="92" rx="15" fill="#fff" stroke="#edb5cf"/>
   <text x="14" y="25" font-size="15" fill="#79344f">Вклады</text>
-  <text x="14" y="65" font-size="34" font-weight="750" fill="#a51f61">33</text>
+  <text x="14" y="65" font-size="34" font-weight="750" fill="#a51f61">35</text>
   
 </g>
 <g transform="translate(200 77)">
   <rect class="tile" style="--delay:180ms" width="158" height="92" rx="15" fill="#fff" stroke="#edb5cf"/>
   <text x="14" y="25" font-size="15" fill="#79344f">Коммиты</text>
-  <text x="14" y="65" font-size="34" font-weight="750" fill="#a51f61">30</text>
+  <text x="14" y="65" font-size="34" font-weight="750" fill="#a51f61">32</text>
   
 </g>
 <g transform="translate(371 77)">
